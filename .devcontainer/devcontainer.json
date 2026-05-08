@@ -1,0 +1,34 @@
+{
+  "name": "Python + uv",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "vscode",
+  "features": {
+	"ghcr.io/devcontainers-extra/features/uv:1": {},
+	"ghcr.io/devcontainers/features/common-utils:2": {},
+	"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+	"ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "ms-python.mypy-type-checker",
+        "ms-toolsai.jupyter",
+        "tamasfe.even-better-toml",
+        "donjayamanne.githistory"
+      ]
+    }
+  },
+  "remoteEnv": {
+    "PROJECT_NAME": "customer-churn-ml-pipeline",
+    "PYTHON_VERSION": "3.14",
+    "UV_INIT_BARE": "true",
+    "INSTALL_IPYKERNEL": "true"
+  },
+  "postCreateCommand": "make post-create",
+  "mounts": []
+}
