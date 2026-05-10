@@ -81,3 +81,7 @@ freeze:
 	@echo "# Generated on $$(date)" > /tmp/requirements.txt
 	@uv pip freeze >> /tmp/requirements.txt
 	@echo "✓ Dependencies frozen (log: /tmp/requirements.txt)"
+
+# Dowload "Telco Customer Churn" dataset to kaggle
+get-data:
+	bash scripts/get_data.sh
