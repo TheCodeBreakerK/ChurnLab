@@ -1,5 +1,5 @@
 {
-  "name": "Python + uv",
+  "name": "customer-churn-ml-pipeline",
   "dockerComposeFile": "./docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
