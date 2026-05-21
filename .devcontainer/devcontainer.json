@@ -1,14 +1,21 @@
 {
-  "name": "customer-churn-ml-pipeline",
-  "dockerComposeFile": "./docker-compose.yml",
+  "name": "churnlab",
+  "dockerComposeFile": "../compose.yaml",
   "service": "app",
   "workspaceFolder": "/workspace",
-  "remoteUser": "vscode",
+  "remoteUser": "root",
   "features": {
-	"ghcr.io/devcontainers-extra/features/uv:1": {},
-	"ghcr.io/devcontainers/features/common-utils:2": {},
-	"ghcr.io/devcontainers/features/docker-in-docker:2": {},
-	"ghcr.io/devcontainers/features/git:1": {}
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "username": "root",
+      "upgradePackages": true
+    },
+    "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
+    "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:3.0.1": {
+      "moby": false
+    },
+    "ghcr.io/devcontainers/features/git:1": {}
   },
   "customizations": {
     "vscode": {
@@ -24,7 +31,7 @@
     }
   },
   "remoteEnv": {
-    "PROJECT_NAME": "customer-churn-ml-pipeline",
+    "PROJECT_NAME": "churnlab",
     "PYTHON_VERSION": "3.14",
     "UV_INIT_BARE": "true",
     "INSTALL_IPYKERNEL": "true"

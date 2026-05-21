@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    image: churnlab
+    container_name: churnlab
+    volumes:
+      - .:/workspace:cached
+    command: sleep infinity

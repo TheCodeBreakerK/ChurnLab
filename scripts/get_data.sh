@@ -1,18 +1,18 @@
 #!/bin/bash
+set -euo pipefail
 
 BASE_PATH="$(pwd)"
-DATA_DIR="$BASE_PATH/data/raw"
-ZIP_FILE="$DATA_DIR/telco-customer-churn.zip"
+DATA_DIR="${BASE_PATH}/data/raw"
+ZIP_FILE="${DATA_DIR}/telco-customer-churn.zip"
 
-mkdir -p "$DATA_DIR"
+mkdir -p "${DATA_DIR}"
 
-echo "Downloading dataset..."
+echo "Downloading Telco Customer Churn dataset..."
 
-curl -L -o "$ZIP_FILE" \
-    https://www.kaggle.com/api/v1/datasets/download/blastchar/telco-customer-churn
+curl -L -o "${ZIP_FILE}" \
+    "https://www.kaggle.com/api/v1/datasets/download/blastchar/telco-customer-churn"
 
-unzip -o "$ZIP_FILE" -d "$DATA_DIR"
+unzip -o "${ZIP_FILE}" -d "${DATA_DIR}"
+rm "${ZIP_FILE}"
 
-rm "$ZIP_FILE"
-
-echo "Dataset download completed."
+echo "✅ Dataset downloaded → ${DATA_DIR}"
