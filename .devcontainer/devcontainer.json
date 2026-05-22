@@ -7,14 +7,11 @@
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "installZsh": true,
-      "username": "root",
+      "username": "vscode",
       "upgradePackages": true
     },
     "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
     "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {},
-    "ghcr.io/devcontainers/features/docker-in-docker:3.0.1": {
-      "moby": false
-    },
     "ghcr.io/devcontainers/features/git:1": {}
   },
   "customizations": {
