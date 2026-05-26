@@ -23,3 +23,5 @@ RUN uv python install 3.14 && \
     uv venv /opt/venv --python 3.14
 
 WORKDIR /workspace
+
+CMD ["streamlit", "run", "/workspace/app.py", "--server.port=8501", "--server.address=0.0.0.0"]

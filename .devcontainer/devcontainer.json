@@ -26,8 +26,9 @@
         "ms-toolsai.vscode-jupyter-cell-tags",
         "tamasfe.even-better-toml",
         "donjayamanne.githistory",
-        "eamodio.gitlens",
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+        "yzhang.markdown-all-in-one",
+        "ms-azuretools.vscode-docker"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/opt/venv/bin/python",
@@ -48,9 +49,7 @@
         "notebook.formatOnSave.enabled": true,
         "notebook.defaultFormatter": "charliermarsh.ruff",
         "jupyter.notebookFileRoot": "${workspaceFolder}",
-        "editor.rulers": [
-          79
-        ],
+        "editor.rulers": [79],
         "editor.tabSize": 4,
         "files.trimTrailingWhitespace": true
       }
@@ -62,6 +61,14 @@
     "UV_INIT_BARE": "true",
     "INSTALL_IPYKERNEL": "true"
   },
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "Streamlit Dashboard",
+      "onAutoForward": "openBrowser"
+    }
+  },
   "postCreateCommand": "make post-create",
+  "postStartCommand": "uv run streamlit run /workspace/app/app.py --server.port 8501 --server.headless true",
   "mounts": []
 }

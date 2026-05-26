@@ -1,0 +1,63 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "/opt/venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "notebook.formatOnSave.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.cwd": "/workspace",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "none",
+    "files.exclude": {
+      "**/.venv": true,
+      "**/__pycache__": true,
+      "**/.mypy_cache": true,
+      "**/.pytest_cache": true,
+      "**/.ruff_cache": true,
+      "**/.ipynb_checkpoints": true,
+      "**/.DS_Store": true,
+      "**/cache": true
+    },
+    "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "ruff.nativeServer": "on",
+    "ruff.organizeImports": true,
+    "ruff.fixAll": true
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-python.mypy-type-checker",
+      "charliermarsh.ruff",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.jupyter-keymap",
+      "ms-toolsai.vscode-jupyter-cell-tags",
+      "tamasfe.even-better-toml",
+      "donjayamanne.githistory",
+      "mechatroner.rainbow-csv",
+      "yzhang.markdown-all-in-one",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+}

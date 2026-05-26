@@ -1,5 +1,6 @@
 .PHONY: post-create init sync ensure-ipykernel test-tools \
-        dev-tools lint format type-check gitignore freeze get-data
+        dev-tools lint format type-check gitignore freeze get-data \
+        streamlit
 
 post-create:
 	@bash scripts/test_tools.sh
@@ -25,6 +26,12 @@ format:
 type-check:
 	@uv run mypy .
 
+get-data:
+	@bash scripts/get_data.sh
+
+streamlit:
+	@uv run streamlit run /workspace/app/app.py --server.port 8501
+
 test-tools:
 	@bash scripts/test_tools.sh
 
@@ -36,6 +43,3 @@ gitignore:
 
 freeze:
 	@bash scripts/freeze.sh
-
-get-data:
-	@bash scripts/get_data.sh

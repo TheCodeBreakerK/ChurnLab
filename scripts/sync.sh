@@ -2,5 +2,5 @@
 set -euo pipefail
 
 echo "Syncing dependencies with uv..."
-uv sync --active
+uv sync
 echo "✅ Sync complete"
