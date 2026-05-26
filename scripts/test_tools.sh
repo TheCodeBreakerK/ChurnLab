@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -euo
 
 PROJECT_NAME=${PROJECT_NAME:-Python + uv}
 

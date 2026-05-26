@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-PYTHON_VERSION=${PYTHON_VERSION:-3.13}
+PYTHON_VERSION=${PYTHON_VERSION:-3.14}
 UV_INIT_BARE=${UV_INIT_BARE:-true}
 
 echo "Initializing Python ${PYTHON_VERSION} environment..."

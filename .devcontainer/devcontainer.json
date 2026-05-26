@@ -1,5 +1,5 @@
 {
-  "name": "churnlab",
+  "name": "ChurnLab",
   "dockerComposeFile": "../compose.yaml",
   "service": "app",
   "workspaceFolder": "/workspace",
@@ -19,16 +19,45 @@
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "charliermarsh.ruff",
         "ms-python.mypy-type-checker",
+        "charliermarsh.ruff",
         "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.vscode-jupyter-cell-tags",
         "tamasfe.even-better-toml",
-        "donjayamanne.githistory"
-      ]
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "mechatroner.rainbow-csv"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/venv/bin/python",
+        "jupyter.kernels.filter": [
+          {
+            "path": "/opt/venv/bin/python",
+            "type": "pythonEnvironment"
+          }
+        ],
+        "[python]": {
+          "editor.defaultFormatter": "charliermarsh.ruff",
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+          }
+        },
+        "notebook.formatOnSave.enabled": true,
+        "notebook.defaultFormatter": "charliermarsh.ruff",
+        "jupyter.notebookFileRoot": "${workspaceFolder}",
+        "editor.rulers": [
+          79
+        ],
+        "editor.tabSize": 4,
+        "files.trimTrailingWhitespace": true
+      }
     }
   },
   "remoteEnv": {
-    "PROJECT_NAME": "churnlab",
+    "PROJECT_NAME": "ChurnLab",
     "PYTHON_VERSION": "3.14",
     "UV_INIT_BARE": "true",
     "INSTALL_IPYKERNEL": "true"
