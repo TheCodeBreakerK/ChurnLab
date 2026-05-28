@@ -28,7 +28,8 @@
         "donjayamanne.githistory",
         "mechatroner.rainbow-csv",
         "yzhang.markdown-all-in-one",
-        "ms-azuretools.vscode-docker"
+        "ms-azuretools.vscode-docker",
+        "mrorz.language-gettext"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/opt/venv/bin/python",
