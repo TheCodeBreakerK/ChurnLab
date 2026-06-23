@@ -1,7 +1,7 @@
 {
   "name": "ChurnLab",
   "dockerComposeFile": "../compose.yaml",
-  "service": "app",
+  "service": "app-cpu",
   "workspaceFolder": "/workspace",
   "remoteUser": "root",
   "features": {

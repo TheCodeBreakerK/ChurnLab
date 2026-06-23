@@ -1,29 +1,40 @@
 services:
-  app:
-    build:
-      context: .
-      args:
-        BUILD_BASE_IMAGE: "nvidia/cuda:12.9.2-cudnn-runtime-ubuntu24.04"
-    image: churnlab
-    container_name: churnlab
-    volumes:
-      - .:/workspace:cached
-    command: sleep infinity
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]
-
-  # app-cpu:
+  # =============================================================================
+  # NVIDIA GPU Support
+  # =============================================================================
+  #
+  # If you have an NVIDIA GPU and the NVIDIA Container Toolkit installed,
+  # use the `app` service instead of `app-cpu`.
+  #
+  # Installation guide:
+  # https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+  #
+  # =============================================================================
+  # app:
   #   build:
   #     context: .
   #     args:
-  #       BUILD_BASE_IMAGE: "ubuntu:24.04"
-  #   image: churnlab-cpu
-  #   container_name: churnlab-cpu
+  #       BUILD_BASE_IMAGE: "nvidia/cuda:12.9.2-cudnn-runtime-ubuntu24.04"
+  #   image: churnlab
+  #   container_name: churnlab
   #   volumes:
   #     - .:/workspace:cached
   #   command: sleep infinity
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: all
+  #             capabilities: [gpu]
+
+  app-cpu:
+    build:
+      context: .
+      args:
+        BUILD_BASE_IMAGE: "ubuntu:24.04"
+    image: churnlab-cpu
+    container_name: churnlab-cpu
+    volumes:
+      - .:/workspace:cached
+    command: sleep infinity
