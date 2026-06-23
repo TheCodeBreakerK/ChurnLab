@@ -70,6 +70,6 @@
     }
   },
   "postCreateCommand": "make post-create",
-  "postStartCommand": "uv run streamlit run /workspace/app/app.py --server.port 8501 --server.headless true",
+  "postStartCommand": "uv run streamlit run /workspace/app/streamlit_app.py --server.port 8501 --server.headless true",
   "mounts": []
 }
