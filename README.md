@@ -64,10 +64,8 @@ flowchart LR
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://churnlab.streamlit.app/)
 
-<br>
-
 <a href="[ChurnLab](https://churnlab.streamlit.app/)">
-  <img src="YOUR_SCREENSHOT_OR_GIF_URL_HERE" alt="ChurnLab Dashboard Preview" width="860"/>
+  <img src="app/assets/churnlab-demo.gif" alt="ChurnLab Dashboard Preview" width="864"/>
 </a>
 
 </div>
