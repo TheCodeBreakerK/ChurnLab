@@ -66,7 +66,7 @@ flowchart LR
 
 <br>
 
-<a href="YOUR_STREAMLIT_DEPLOY_URL_HERE">
+<a href="[ChurnLab](https://churnlab.streamlit.app/)">
   <img src="YOUR_SCREENSHOT_OR_GIF_URL_HERE" alt="ChurnLab Dashboard Preview" width="860"/>
 </a>
 
