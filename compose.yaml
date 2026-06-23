@@ -17,14 +17,13 @@ services:
               count: all
               capabilities: [gpu]
 
-  app-cpu:
-    build:
-      context: .
-      args:
-        BUILD_BASE_IMAGE: "ubuntu:24.04"
-    image: churnlab-cpu
-    container_name: churnlab-cpu
-    profiles: [cpu]
-    volumes:
-      - .:/workspace:cached
-    command: sleep infinity
+  # app-cpu:
+  #   build:
+  #     context: .
+  #     args:
+  #       BUILD_BASE_IMAGE: "ubuntu:24.04"
+  #   image: churnlab-cpu
+  #   container_name: churnlab-cpu
+  #   volumes:
+  #     - .:/workspace:cached
+  #   command: sleep infinity

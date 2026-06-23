@@ -1,6 +1,6 @@
 .PHONY: post-create init sync ensure-ipykernel test-tools \
         dev-tools lint format type-check gitignore freeze get-data \
-        streamlit
+        streamlit i18n-init i18n-extract i18n-update i18n-compile
 
 post-create:
 	@bash scripts/test_tools.sh
@@ -17,6 +17,12 @@ sync:
 ensure-ipykernel:
 	@bash scripts/ensure_ipykernel.sh
 
+test-tools:
+	@bash scripts/test_tools.sh
+
+dev-tools:
+	@bash scripts/dev_tools.sh
+
 lint:
 	@uv run ruff check .
 
@@ -26,20 +32,27 @@ format:
 type-check:
 	@uv run mypy .
 
+gitignore:
+	@bash scripts/gitignore.sh
+
+freeze:
+	@bash scripts/freeze.sh
+
 get-data:
 	@bash scripts/get_data.sh
 
 streamlit:
 	@uv run streamlit run /workspace/app/app.py --server.port 8501
 
-test-tools:
-	@bash scripts/test_tools.sh
+i18n-init:
+	uv run pybabel init -i /workspace/app/locales/messages.pot -d /workspace/app/locales -l pt_BR
+	uv run pybabel init -i /workspace/app/locales/messages.pot -d /workspace/app/locales -l en_US
 
-dev-tools:
-	@bash scripts/dev_tools.sh
+i18n-extract:
+	uv run pybabel extract -F /workspace/app/babel.cfg -o /workspace/app/locales/messages.pot /workspace/app --project ChurnLab --version 0.1.0
 
-gitignore:
-	@bash scripts/gitignore.sh
+i18n-update:
+	uv run pybabel update -i /workspace/app/locales/messages.pot -d /workspace/app/locales
 
-freeze:
-	@bash scripts/freeze.sh
+i18n-compile:
+	uv run pybabel compile -d /workspace/app/locales

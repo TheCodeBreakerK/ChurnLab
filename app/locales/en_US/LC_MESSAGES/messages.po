@@ -1,0 +1,273 @@
+# English (United States) translations for ChurnLab.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the ChurnLab project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ChurnLab 0.1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-06-11 13:00+0000\n"
+"PO-Revision-Date: 2026-06-11 13:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+msgid "Overview"
+msgstr "Overview"
+
+msgid "Prediction"
+msgstr "Prediction"
+
+msgid "Benchmark"
+msgstr "Benchmark"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "About"
+msgstr "About"
+
+msgid "About ChurnLab"
+msgstr "About ChurnLab"
+
+msgid "Avg F1 Score"
+msgstr "Avg F1 Score"
+
+msgid "Avg. Monthly ($)"
+msgstr "Avg. Monthly ($)"
+
+msgid "Avg ROC AUC"
+msgstr "Avg ROC AUC"
+
+msgid "Avg. Tenure (mo)"
+msgstr "Avg. Tenure (mo)"
+
+msgid "Best Model"
+msgstr "Best Model"
+
+msgid "Best ROC AUC"
+msgstr "Best ROC AUC"
+
+msgid "Churn"
+msgstr "Churn"
+
+msgid "Churn by Contract Type"
+msgstr "Churn by Contract Type"
+
+msgid "Churn Distribution"
+msgstr "Churn Distribution"
+
+msgid "Churned"
+msgstr "Churned"
+
+msgid "ChurnLab — Customer Churn Prediction System"
+msgstr "ChurnLab — Customer Churn Prediction System"
+
+msgid "Churn Prediction"
+msgstr "Churn Prediction"
+
+msgid "Churn Probability"
+msgstr "Churn Probability"
+
+msgid "Churn Rate (%)"
+msgstr "Churn Rate (%)"
+
+msgid "Choose the ML model to use for prediction."
+msgstr "Choose the ML model to use for prediction."
+
+msgid ""
+"ChurnLab is a production-ready Machine Learning application that predicts"
+" telecom customer churn. Four models (Logistic Regression, Decision Tree,"
+" Random Forest, and XGBoost) were trained, tuned with Optuna, and "
+"evaluated on the IBM Telco Customer Churn dataset."
+msgstr ""
+"ChurnLab is a production-ready Machine Learning application that predicts"
+" telecom customer churn. Four models (Logistic Regression, Decision Tree,"
+" Random Forest, and XGBoost) were trained, tuned with Optuna, and "
+"evaluated on the IBM Telco Customer Churn dataset."
+
+msgid "Compare trained model performance across key evaluation metrics."
+msgstr "Compare trained model performance across key evaluation metrics."
+
+msgid "Configure your ChurnLab preferences."
+msgstr "Configure your ChurnLab preferences."
+
+msgid "Contract"
+msgstr "Contract"
+
+msgid "Count"
+msgstr "Count"
+
+msgid "Customer Information"
+msgstr "Customer Information"
+
+msgid "End-to-end Machine Learning project for Telecom Customer Churn Prediction."
+msgstr "End-to-end Machine Learning project for Telecom Customer Churn Prediction."
+
+msgid ""
+"Explore dataset statistics, understand churn patterns, and review model "
+"performance."
+msgstr ""
+"Explore dataset statistics, understand churn patterns, and review model "
+"performance."
+
+msgid "Feature"
+msgstr "Feature"
+
+msgid "Feature Importance"
+msgstr "Feature Importance"
+
+msgid "Full Comparison Table"
+msgstr "Full Comparison Table"
+
+msgid "High Risk"
+msgstr "High Risk"
+
+msgid "Importance"
+msgstr "Importance"
+
+msgid "Internet Service"
+msgstr "Internet Service"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Language updated. Refreshing…"
+msgstr "Language updated. Refreshing…"
+
+msgid "Links"
+msgstr "Links"
+
+msgid "Low Risk"
+msgstr "Low Risk"
+
+msgid "Medium Risk"
+msgstr "Medium Risk"
+
+msgid "Metric"
+msgstr "Metric"
+
+msgid "Metric Comparison"
+msgstr "Metric Comparison"
+
+msgid "Model"
+msgstr "Model"
+
+msgid "Models Benchmark"
+msgstr "Models Benchmark"
+
+msgid "Monthly Charges ($)"
+msgstr "Monthly Charges ($)"
+
+msgid "Online Security"
+msgstr "Online Security"
+
+msgid "Paperless Billing"
+msgstr "Paperless Billing"
+
+msgid "Payment Method"
+msgstr "Payment Method"
+
+msgid "Prediction Speed"
+msgstr "Prediction Speed"
+
+msgid "Predict"
+msgstr "Predict"
+
+msgid "Predict Time (s)"
+msgstr "Predict Time (s)"
+
+msgid "Project Description"
+msgstr "Project Description"
+
+msgid "Radar Chart"
+msgstr "Radar Chart"
+
+msgid "Score"
+msgstr "Score"
+
+msgid "Select a model and fill in customer details to predict churn probability."
+msgstr "Select a model and fill in customer details to predict churn probability."
+
+msgid "Select language"
+msgstr "Select language"
+
+msgid "Sort by"
+msgstr "Sort by"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Technology Stack"
+msgstr "Technology Stack"
+
+msgid "Tech Support"
+msgstr "Tech Support"
+
+msgid "Tenure (months)"
+msgstr "Tenure (months)"
+
+msgid "Tenure vs Monthly Charges"
+msgstr "Tenure vs Monthly Charges"
+
+msgid ""
+"The application provides an interactive prediction interface where users "
+"can select a model, input customer features, and receive a churn "
+"probability with risk classification. A benchmark dashboard compares "
+"model performance across ROC AUC, PR AUC, Accuracy, Precision, Recall, F1"
+" Score, and Prediction Time."
+msgstr ""
+"The application provides an interactive prediction interface where users "
+"can select a model, input customer features, and receive a churn "
+"probability with risk classification. A benchmark dashboard compares "
+"model performance across ROC AUC, PR AUC, Accuracy, Precision, Recall, F1"
+" Score, and Prediction Time."
+
+msgid "Total Customers"
+msgstr "Total Customers"
+
+msgid "Gender"
+msgstr "Gender"
+
+msgid "Senior Citizen"
+msgstr "Senior Citizen"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "Dependents"
+msgstr "Dependents"
+
+msgid "Phone Service"
+msgstr "Phone Service"
+
+msgid "Multiple Lines"
+msgstr "Multiple Lines"
+
+msgid "Online Backup"
+msgstr "Online Backup"
+
+msgid "Device Protection"
+msgstr "Device Protection"
+
+msgid "Streaming TV"
+msgstr "Streaming TV"
+
+msgid "Streaming Movies"
+msgstr "Streaming Movies"
+
+msgid "Profile"
+msgstr "Profile"
+
+msgid "Services"
+msgstr "Services"
+
+msgid "Billing"
+msgstr "Billing"
+

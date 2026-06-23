@@ -1,0 +1,277 @@
+# Portuguese (Brazil) translations for ChurnLab.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the ChurnLab project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ChurnLab 0.1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-06-11 13:00+0000\n"
+"PO-Revision-Date: 2026-06-11 13:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt_BR\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+msgid "Overview"
+msgstr "Visão Geral"
+
+msgid "Prediction"
+msgstr "Predição de Churn"
+
+msgid "Benchmark"
+msgstr "Benchmark dos Modelos"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "About"
+msgstr "Sobre"
+
+msgid "About ChurnLab"
+msgstr "Sobre o ChurnLab"
+
+msgid "Avg F1 Score"
+msgstr "Méd. F1 Score"
+
+msgid "Avg. Monthly ($)"
+msgstr "Méd. Mensal ($)"
+
+msgid "Avg ROC AUC"
+msgstr "Méd. ROC AUC"
+
+msgid "Avg. Tenure (mo)"
+msgstr "Méd. Tempo (meses)"
+
+msgid "Best Model"
+msgstr "Melhor Modelo"
+
+msgid "Best ROC AUC"
+msgstr "Melhor ROC AUC"
+
+msgid "Churn"
+msgstr "Churn"
+
+msgid "Churn by Contract Type"
+msgstr "Churn por Tipo de Contrato"
+
+msgid "Churn Distribution"
+msgstr "Distribuição de Churn"
+
+msgid "Churned"
+msgstr "Cancelaram"
+
+msgid "ChurnLab — Customer Churn Prediction System"
+msgstr "ChurnLab — Sistema de Predição de Churn de Clientes"
+
+msgid "Churn Prediction"
+msgstr "Predição de Churn"
+
+msgid "Churn Probability"
+msgstr "Probabilidade de Churn"
+
+msgid "Churn Rate (%)"
+msgstr "Taxa de Churn (%)"
+
+msgid "Choose the ML model to use for prediction."
+msgstr "Escolha o modelo de ML para usar na predição."
+
+msgid ""
+"ChurnLab is a production-ready Machine Learning application that predicts"
+" telecom customer churn. Four models (Logistic Regression, Decision Tree,"
+" Random Forest, and XGBoost) were trained, tuned with Optuna, and "
+"evaluated on the IBM Telco Customer Churn dataset."
+msgstr ""
+"O ChurnLab é uma aplicação de Machine Learning pronta para produção que "
+"prevê churn de clientes de telecom. Quatro modelos (Regressão Logística, "
+"Árvore de Decisão, Random Forest e XGBoost) foram treinados, otimizados "
+"com Optuna e avaliados no conjunto de dados IBM Telco Customer Churn."
+
+msgid "Compare trained model performance across key evaluation metrics."
+msgstr "Compare o desempenho dos modelos treinados nas principais métricas."
+
+msgid "Configure your ChurnLab preferences."
+msgstr "Configure suas preferências do ChurnLab."
+
+msgid "Contract"
+msgstr "Contrato"
+
+msgid "Count"
+msgstr "Contagem"
+
+msgid "Customer Information"
+msgstr "Informações do Cliente"
+
+msgid "End-to-end Machine Learning project for Telecom Customer Churn Prediction."
+msgstr ""
+"Projeto completo de Machine Learning para Predição de Churn de Clientes "
+"de Telecom."
+
+msgid ""
+"Explore dataset statistics, understand churn patterns, and review model "
+"performance."
+msgstr ""
+"Explore estatísticas do conjunto de dados, entenda padrões de churn e "
+"avalie o desempenho dos modelos."
+
+msgid "Feature"
+msgstr "Atributo"
+
+msgid "Feature Importance"
+msgstr "Importância dos Atributos"
+
+msgid "Full Comparison Table"
+msgstr "Tabela de Comparação Completa"
+
+msgid "High Risk"
+msgstr "Alto Risco"
+
+msgid "Importance"
+msgstr "Importância"
+
+msgid "Internet Service"
+msgstr "Serviço de Internet"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Language updated. Refreshing…"
+msgstr "Idioma atualizado. Atualizando…"
+
+msgid "Links"
+msgstr "Links"
+
+msgid "Low Risk"
+msgstr "Baixo Risco"
+
+msgid "Medium Risk"
+msgstr "Risco Médio"
+
+msgid "Metric"
+msgstr "Métrica"
+
+msgid "Metric Comparison"
+msgstr "Comparação de Métricas"
+
+msgid "Model"
+msgstr "Modelo"
+
+msgid "Models Benchmark"
+msgstr "Benchmark dos Modelos"
+
+msgid "Monthly Charges ($)"
+msgstr "Cobrança Mensal ($)"
+
+msgid "Online Security"
+msgstr "Segurança Online"
+
+msgid "Paperless Billing"
+msgstr "Fatura Digital"
+
+msgid "Payment Method"
+msgstr "Método de Pagamento"
+
+msgid "Prediction Speed"
+msgstr "Velocidade de Predição"
+
+msgid "Predict"
+msgstr "Prever"
+
+msgid "Predict Time (s)"
+msgstr "Tempo de Predição (s)"
+
+msgid "Project Description"
+msgstr "Descrição do Projeto"
+
+msgid "Radar Chart"
+msgstr "Gráfico Radar"
+
+msgid "Score"
+msgstr "Pontuação"
+
+msgid "Select a model and fill in customer details to predict churn probability."
+msgstr ""
+"Selecione um modelo e preencha os dados do cliente para prever a "
+"probabilidade de churn."
+
+msgid "Select language"
+msgstr "Selecionar idioma"
+
+msgid "Sort by"
+msgstr "Ordenar por"
+
+msgid "Status"
+msgstr "Situação"
+
+msgid "Technology Stack"
+msgstr "Stack de Tecnologia"
+
+msgid "Tech Support"
+msgstr "Suporte Técnico"
+
+msgid "Tenure (months)"
+msgstr "Tempo (meses)"
+
+msgid "Tenure vs Monthly Charges"
+msgstr "Tempo vs Cobrança Mensal"
+
+msgid ""
+"The application provides an interactive prediction interface where users "
+"can select a model, input customer features, and receive a churn "
+"probability with risk classification. A benchmark dashboard compares "
+"model performance across ROC AUC, PR AUC, Accuracy, Precision, Recall, F1"
+" Score, and Prediction Time."
+msgstr ""
+"A aplicação fornece uma interface interativa de predição onde usuários "
+"podem selecionar um modelo, inserir dados do cliente e receber uma "
+"probabilidade de churn com classificação de risco. Um painel de benchmark"
+" compara o desempenho dos modelos em ROC AUC, PR AUC, Acurácia, Precisão,"
+" Recall, F1 Score e Tempo de Predição."
+
+msgid "Total Customers"
+msgstr "Total de Clientes"
+
+msgid "Gender"
+msgstr "Gênero"
+
+msgid "Senior Citizen"
+msgstr "Idoso"
+
+msgid "Partner"
+msgstr "Parceiro(a)"
+
+msgid "Dependents"
+msgstr "Dependentes"
+
+msgid "Phone Service"
+msgstr "Serviço Telefônico"
+
+msgid "Multiple Lines"
+msgstr "Múltiplas Linhas"
+
+msgid "Online Backup"
+msgstr "Backup Online"
+
+msgid "Device Protection"
+msgstr "Proteção de Dispositivo"
+
+msgid "Streaming TV"
+msgstr "Streaming TV"
+
+msgid "Streaming Movies"
+msgstr "Streaming Filmes"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Services"
+msgstr "Serviços"
+
+msgid "Billing"
+msgstr "Faturamento"
+
