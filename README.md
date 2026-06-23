@@ -62,7 +62,7 @@ flowchart LR
 
 <div align="center">
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_DEPLOY_URL_HERE)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://churnlab.streamlit.app/)
 
 <br>
 
